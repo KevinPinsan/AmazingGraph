@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+}
+
+body header div p{
+    color: red;
+}
+
+body header div p {
+    color: red;
+}
+
+body div#team{
+    max-width: 100%;
+    max-height: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+body div#team img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 50%;
+    width: 50%;
+    display: flex;
+}
