@@ -10,6 +10,14 @@ body header{
     flex-direction: column;
 }
 
+body header div#title {
+    margin-left: 70px;
+    width: 50%;
+}
+body header div#title p{
+    color:#D2872C
+}
+
 body header div#links {
     display: flex;
     flex-direction: row-reverse;
@@ -22,10 +30,27 @@ body header div#links a {
     width: 7%;
 }
 
-body header div p {
-    color:#D2872C
-
+body div#textoPrincipal{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
 }
+
+body div#textoPrincipal h1{
+    max-width: 50%;
+    max-height: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+body div#textoPrincipal p{
+    max-width: 50%;
+    max-height: 80%;
+    height: 100%;
+    font-size: 20px;
+}
+
 
 body div#team{
     max-width: 100%;
@@ -33,25 +58,13 @@ body div#team{
     display: flex;
     justify-content: end;
 }
+body div#team {
+    max-width: 100%;
+    max-height: 50%;
+    display: flex;
+    justify-content: end;
+    float: right;  
 
-body div {
-    margin-left: 70px;
-}
-
-body div h1{
-    max-width: 50%;
-    max-height: 80%;
-    height: 100%;
-    margin-bottom: 30px;
-    font-size: 50px;
-
-}
-
-body div p{
-    max-width: 50%;
-    max-height: 80%;
-    height: 100%;
-    font-size: 30px;
 }
 
 body div#team img{
