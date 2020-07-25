@@ -1,77 +1,59 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
-a{
+a {
     text-decoration: none;
 }
-
-body header{
+html body header{
     display: flex;
-    flex-direction: column;
+justify-content: space-between;
 }
 
-body header div#title {
-    margin-left: 70px;
-    width: 50%;
-}
-body header div#title p{
-    color:#D2872C
+html body header div#title{
+    display: grid;
+    justify-content: flex-start;
+    margin: 10px;
 }
 
-body header div#links {
+html body header div#links{
     display: flex;
-    flex-direction: row-reverse;
-    width: revert;
+justify-content: end;
+align-items: center;
+}
+
+html body header div#links a{
+    margin-right: 10px;
+
+}
+
+html body div#corpo{
+    display: flex;
+margin-top: 50px;
+justify-content: space-between;
+align-items: center;
+}
+
+html body div#corpo div#imagem{
+    display: flex;
+    justify-content: end;
+    padding: 2px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+html body div#corpo div#imagem img{
+    max-width: 100%;
+    max-height: 100%;
     width: 100%;
 }
 
-body header div#links a {
-    text-decoration: none;
-    width: 7%;
-}
-
-body div#textoPrincipal{
-    float: left;
-    width: 50%;
-    margin-left: 5%;
-}
-
-body div#textoPrincipal h1{
-    max-width: 50%;
-    max-height: 80%;
-    height: 100%;
-    margin-bottom: 30px;
-    font-size: 40px;
-}
-
-body div#textoPrincipal p{
-    max-width: 50%;
-    max-height: 80%;
-    height: 100%;
-    font-size: 20px;
-}
-
-
-body div#team{
-    max-width: 100%;
-    max-height: 50%;
+html body div#corpo{
     display: flex;
-    justify-content: end;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
 }
-body div#team {
-    max-width: 100%;
-    max-height: 50%;
-    display: flex;
-    justify-content: end;
-    float: right;  
-
+html body div#corpo div#start{
+    margin-left: 8%;
 }
-
-body div#team img{
-    max-width: 100%;
-    max-height: 100%;
-    height: 50%;
-    width: 50%;
-    display: flex;
-    margin-top: 0px;
+html body div#corpo div#start h1{
+    font-family: 'Roboto', sans-serif;
+font-size: 48px;
 }
