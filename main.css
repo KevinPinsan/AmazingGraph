@@ -1,15 +1,24 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 a {
     text-decoration: none;
 }
 html body header{
     display: flex;
-justify-content: space-between;
+    justify-content: space-between;
+    margin: 0px 30px;
 }
 
 html body header div#title{
     display: grid;
     justify-content: flex-start;
     margin: 10px;
+}
+
+html body header div#title h2{
+    color: #D2872C;
+    margin-left: 10px;
 }
 
 html body header div#links{
@@ -19,7 +28,10 @@ align-items: center;
 }
 
 html body header div#links a{
-    margin-right: 10px;
+    margin-right: 16px;
+    font-size: 20px;
+    color: #766F68;
+    font-weight: 500;
 
 }
 
@@ -32,28 +44,47 @@ align-items: center;
 
 html body div#corpo div#imagem{
     display: flex;
-    justify-content: end;
-    padding: 2px;
+    justify-content: flex-start;
+    padding: 10px 5px;
     width: 80%;
-    margin-right: 10px;
+    margin-top: 5%;
 }
 
-html body div#corpo div#imagem img{
+div#corpo div#imagem img{
     max-width: 100%;
-    max-height: 100%;
+    max-height: 50%;
     width: 100%;
 }
 
-html body div#corpo{
+div#corpo{
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
     align-items: center;
 }
-html body div#corpo div#start{
+div#start{
     margin-left: 8%;
 }
-html body div#corpo div#start h1{
+div#start h1{
     font-family: 'Roboto', sans-serif;
-font-size: 48px;
+    font-size: 48px;
+    color: #766F68;
+}
+
+div#start p{
+    color: #766F68;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+div#corpo div#start div#botao{
+    margin-top: 20%;
+}
+div#corpo div#start div#botao a{
+    padding: 1em 5em;
+    background-color: #D2872C;
+    border-radius: 9px;
+    color: white;
+    font-weight: 556;
+    font-size: 15px;
 }
