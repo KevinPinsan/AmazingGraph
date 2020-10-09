@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -10,24 +11,21 @@ html body header{
     margin: 0px 30px;
 }
 
-html body header div#title{
-    display: grid;
-    justify-content: flex-start;
+#title{
     margin: 10px;
 }
 
-html body header div#title h2{
+#title h2{
     color: #D2872C;
     margin-left: 10px;
 }
 
-html body header div#links{
+#links{
     display: flex;
-justify-content: end;
-align-items: center;
+    align-items: center;
 }
 
-html body header div#links a{
+#links a{
     margin-right: 16px;
     font-size: 20px;
     color: #766F68;
@@ -35,31 +33,19 @@ html body header div#links a{
 
 }
 
-html body div#corpo{
-    display: flex;
-margin-top: 50px;
-justify-content: space-between;
-align-items: center;
-}
-
-html body div#corpo div#start{
+#start{
     margin-left: 8%;
     position: relative;
     left: -24px;
     top: -52px;
-    display: block;
 }
 
-html body div#corpo div#imagem{
-    display: flex;
-    justify-content: flex-start;
-    padding: 10px 5px;
+#imagem{
     width: 80%;
     margin-top: 5%;
 }
 
-div#corpo div#imagem img{
-    display: flex;
+#imagem img{
     justify-content: flex-start;
     padding: 10px 5px;
     width: 65%;
@@ -70,15 +56,13 @@ div#corpo div#imagem img{
     top: 80px;
 }
 
-div#corpo{
+#corpo{
     display: flex;
     margin-top: 50px;
-    justify-content: space-between;
-    align-items: center;
+    
 }
 
-
-div#start h1{
+#start h1{
     font-family: 'Roboto', sans-serif;
     font-size: 74px;
     color: #766F68;
@@ -87,16 +71,16 @@ div#start h1{
     left: -4px;
 }
 
-div#start p{
+#start p{
     color: #766F68;
     font-size: 30px;
     font-weight: 500;
 }
 
-div#corpo div#start div#botao{
+#botao{
     margin-top: 20%;
 }
-div#corpo div#start div#botao a{
+#botao a{
     padding: 1em 5em;
     background-color: #D2872C;
     border-radius: 9px;
